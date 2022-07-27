@@ -1,0 +1,37 @@
+{
+  "name": "discord-invite",
+  "version": "1.0.0",
+  "description": "discord-invite is a powerful package that allows your discord bot to manage all invite",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "module": "dist/index.mjs",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js"
+    },
+    "./src/*": "./dist/*",
+    "./dist/*": "./dist/*"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyrozDZN/discord-invite.git"
+  },
+  "keywords": [
+    "Discord",
+    "discord.js",
+    "invite"
+  ],
+  "author": "AyrozDZN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AyrozDZN/discord-invite/issues"
+  },
+  "homepage": "https://github.com/AyrozDZN/discord-invite#readme"
+}
